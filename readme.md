@@ -1,0 +1,1 @@
+This contains the code for a simple banking system. Where a staff can login, create an account for clients and it gets saved to the db(cstomers.txt). Staff can also check for the details of an account using the account number that is automatically generated when the account is created.
