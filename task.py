@@ -29,7 +29,7 @@ def create_account(name, email , acc_type, amount):
 # staff_file.close()
 
 print('welcome')
-choice = input('Please press 1 to login or 2 to close the app\n>__ ')
+choice = input('Please press 1 to login or 2 to close the app:\n>')
 
 if choice == '1':
     username = input('Username: ').lower()
