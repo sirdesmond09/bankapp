@@ -61,7 +61,7 @@ if choice == '1':
                     print(f"Please save account number!")
                     
                 elif choice == '2':
-                    account_number = int(input('Please enter account number\n>_ '))
+                    account_number = int(input('Please enter account number:\n>'))
                     with open('customers.txt') as file_object: 
                         lines = file_object.readlines() 
                     
